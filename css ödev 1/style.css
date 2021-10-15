@@ -1,0 +1,103 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(29, 29, 29);
+    margin: 0;
+}
+header{
+    
+    color: rgb(29, 29, 29);
+    text-align: center;
+    background-color: rgb(133, 196, 164);
+    padding: 15px;
+    margin: 0px;
+    list-style-type: none;
+
+   
+}
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    overflow: hidden;
+}
+.nav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    color: white;
+    font-size: large;
+}
+
+main{
+    color: rgb(29, 29, 29);
+    text-align: center;
+    margin: 50px;
+    padding: 50px;
+    
+}
+
+.contain {
+    
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 310px;
+
+}
+
+.contain img{
+    width: 300px;
+    float: left;
+    padding: 10px;
+    margin: 0px;
+}
+
+
+
+footer{
+    color: white;
+    text-align: center;
+    background-color: rgb(34, 151, 92);
+    width: auto;  
+    padding: 1px;
+    margin: 0px;
+
+}
+
+                 /***************REVIEWS**************/
+
+                 .inceleme {
+    
+                    background-color: rgb(255, 255, 255);
+                    margin-left:auto;
+                    margin-right:auto;
+
+                     width:50%;
+                
+                }
+                
+                .inceleme img{
+                 width:50%;
+                 padding: 40px;
+                }
+
+                /************* ABOUT US ****************/
+
+                .iletisim{
+                    margin: 15px ;
+                    padding: 15px ;
+                }
+                .iletisim a{
+                    color: white;
+                    text-decoration: none;
+
+                }
+
+                .iletisim a:hover{
+                    color: rgb(21, 250, 33);
+                    font-size: large;
+                }
